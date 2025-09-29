@@ -291,20 +291,9 @@
 		(uuid "764eab16-86d5-463f-8aae-e1aa39f90662")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/Library/Custom.pretty/SS411P.STEP"
 		(offset
-			(xyz 1.25 -0.2 0)
+			(xyz 1.25 -0.2 5)
 		)
 		(scale
 			(xyz 1 1 1)
