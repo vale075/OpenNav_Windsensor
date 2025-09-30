@@ -18772,6 +18772,10 @@
 		(uuid "527c8daf-5e01-4fbe-b1ca-36f2a4a221fc")
 	)
 	(no_connect
+		(at 125.73 104.14)
+		(uuid "5a120b1f-7ea1-4211-ae30-3df6a1fc2573")
+	)
+	(no_connect
 		(at 175.26 104.14)
 		(uuid "6db60844-0c68-4854-8687-d28918b415a8")
 	)
@@ -18782,10 +18786,6 @@
 	(no_connect
 		(at 175.26 127)
 		(uuid "b0fb6a54-36ef-4360-b6d9-4d45dcb23a30")
-	)
-	(no_connect
-		(at 125.73 127)
-		(uuid "b20691a3-85ea-46c8-ada9-d64846cf3502")
 	)
 	(no_connect
 		(at 113.03 125.73)
@@ -18838,6 +18838,16 @@
 			(type default)
 		)
 		(uuid "40cc0ac4-aeaf-4434-95c7-7d0d9b05900b")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412d0748-c10a-4dfb-86b4-0e1c47525502")
 	)
 	(wire
 		(pts
@@ -18951,16 +18961,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 125.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bbdbd6-d69e-4dd0-b060-dcd71e03bdcb")
-	)
-	(wire
-		(pts
 			(xy 118.11 128.27) (xy 120.65 128.27)
 		)
 		(stroke
@@ -18971,13 +18971,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 125.73 104.14)
+			(xy 124.46 85.09) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c22f30c3-3f3f-47b7-904e-fea3b87a3686")
+		(uuid "d39f3a1b-1330-431d-809f-1d23585bdb61")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75a44d2-9147-4d56-978b-c3cb0f120e70")
 	)
 	(wire
 		(pts
@@ -20578,7 +20588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm"
 			(at 78.74 123.19 0)
 			(effects
 				(font
